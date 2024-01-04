@@ -1,0 +1,137 @@
+* {
+	margin: 0px 0px 0px 0px;
+  font-family: "Iosevka";
+  font-size: 14px;
+}
+
+window#waybar {
+		margin-top: 30px;
+		border-radius: 5px;
+    background-color: #1d2021;
+    color: #ebdbb2;    
+}
+
+
+.modules-left {
+  margin-left: 10px;
+  border-radius: 5px;
+ 	background-color: #1d2021;
+	padding: 0px 0px 0px 0px;
+}
+
+
+.modules-right {
+  border-radius: 5px;
+	background-color: #1d2021;
+	padding: 0px 5px 0px 0px;
+}
+
+
+
+#workspaces {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+  border-radius: 5px;
+	background-color: #282828;
+	color: #ebdbb2;
+}
+
+#window {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+  border-radius: 5px;
+	padding: 0px 10px 0px 10px;
+	background-color: #282828;
+	color: #ebdbb2;
+}
+
+window#waybar.empty #window {
+    background-color: transparent;
+}
+
+#workspaces button {
+  border-radius: 20px;
+	padding: 0px 10px 0px 10px; 
+ 	min-width: 1px;
+	color: #ebdbb2;
+}
+
+
+#workspaces button.active {
+  border-radius: 15px;
+  background-color: #282828; 
+	color:  #83a598;
+}
+
+
+#mode { 
+      background-color: #282828;
+      color: #ebdbb2;
+      padding: 0px 5px 0px 5px;
+      border: 1px solid #2f343a;
+}
+
+#network, #temperature, #backlight, #pulseaudio, #battery, #clock, #clock.2 {
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	background-color: #282828;
+	padding: 0px 15px 0px 15px;
+}
+
+
+#tray{
+	padding: 0px 8px 0px 5px;
+	margin: 0px 5px 0px 5px;
+}
+
+#network {
+	color: #83a598;
+}
+
+#backlight {
+	color: #d3869b;
+}
+
+#pulseaudio {
+	color: #8ec07c;
+}
+
+#battery {
+	color: #b8bb26;
+}
+
+#clock {
+	color: #fabd2f;
+}
+
+#clock.2 {
+	color: #fe8019;
+}
+
+#battery.critical {
+	color: #fb4934;
+}
+
+
+#network.disconnected {
+	color: #fb4934;
+}
+
+#custom-wmname {
+  color: #458588;
+	font-size: 25px;	
+}
+
+button:hover {
+  box-shadow: none; /* Remove predefined box-shadow */
+  text-shadow: none; /* Remove predefined text-shadow */
+  background: none; /* Remove predefined background color (white) */
+  transition: none; /* Disable predefined animations */
+  border-color: transparent;
+  color: #8839ef;
+}
+
