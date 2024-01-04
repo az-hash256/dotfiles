@@ -5,9 +5,9 @@
     htop
     neofetch
     wl-clipboard
-    dolphin
     betterdiscordctl
     discord
+    alejandra
     gimp
     lean4
     obsidian
