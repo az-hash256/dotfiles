@@ -16,6 +16,7 @@
     ./features/hyprland/hyprland.nix
     ./features/enable_unfree.nix
     ./features/cursor.nix
+    ./features/bash.nix
   ];
 
   colorScheme = inputs.nix-colors.colorSchemes.gruvbox-dark-medium;
