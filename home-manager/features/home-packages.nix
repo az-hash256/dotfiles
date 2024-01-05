@@ -1,6 +1,8 @@
-{ config, pkgs, ...}:
-
 {
+  config,
+  pkgs,
+  ...
+}: {
   home.packages = with pkgs; [
     htop
     neofetch
@@ -8,8 +10,6 @@
     betterdiscordctl
     discord
     alejandra
-    gimp
-    lean4
     obsidian
   ];
 
@@ -17,5 +17,4 @@
     "electron-24.8.6"
     "electron-25.9.0"
   ];
-
 }
