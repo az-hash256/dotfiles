@@ -20,6 +20,7 @@
     xdg-user-dirs
     qt5.qtwayland
     qt6.qtwayland
+    libsForQt5.qt5.qtgraphicaleffects
     swww
   ];
 
