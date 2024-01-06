@@ -20,8 +20,6 @@
         nativeBuildInputs = with pkgs; [
           nodejs
         ];
-
-        shellHook = ''echo "This is a Dev Environment for Javascript."'';
       };
   };
 }
