@@ -11,6 +11,16 @@
     discord
     alejandra
     obsidian
+    pavucontrol
+    wget
+    slurp
+    grim
+    dunst
+    xdg-desktop-portal-hyprland
+    xdg-user-dirs
+    qt5.qtwayland
+    qt6.qtwayland
+    swww
   ];
 
   nixpkgs.config.permittedInsecurePackages = [

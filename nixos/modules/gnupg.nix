@@ -1,8 +1,7 @@
 {
- services.pcscd.enable = true;
- programs.gnupg.agent = {
-   enable = true;
-   pinentryFlavor = "curses";
-   enableSSHSupport = true;
-};
+  services.pcscd.enable = true;
+  programs.gnupg.agent = {
+    enable = true;
+    enableSSHSupport = true;
+  };
 }
