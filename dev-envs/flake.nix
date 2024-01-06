@@ -5,12 +5,17 @@
     templates = {
       javascript = {
         path = ./javascript;
-        description = "Flake for javascript template";
+        description = "Flake for Javascript template";
       };
 
       haskell = {
         path = ./haskell;
-        description = "Flake for haskell template";
+        description = "Flake for Haskell template";
+      };
+
+      prolog = {
+        path = ./prolog;
+        description = "Flake for Prolog template";
       };
     };
 
