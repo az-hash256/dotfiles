@@ -10,5 +10,6 @@
     curl
     bash
     coreutils-full
+    libsForQt5.qt5.qtgraphicaleffects
   ];
 }

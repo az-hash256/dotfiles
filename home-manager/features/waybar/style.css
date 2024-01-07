@@ -7,22 +7,22 @@
 window#waybar {
 		margin-top: 30px;
 		border-radius: 5px;
-    background-color: #1d2021;
-    color: #ebdbb2;    
+    background-color: #11111b;
+    color: #9399b2;   
 }
 
 
 .modules-left {
   margin-left: 10px;
   border-radius: 5px;
- 	background-color: #1d2021;
+ 	background-color: #11111b;
 	padding: 0px 0px 0px 0px;
 }
 
 
 .modules-right {
   border-radius: 5px;
-	background-color: #1d2021;
+	background-color: #11111b;
 	padding: 0px 5px 0px 0px;
 }
 
@@ -33,8 +33,8 @@ window#waybar {
 	margin-bottom: 5px;
 	margin-left: 5px;
   border-radius: 5px;
-	background-color: #282828;
-	color: #ebdbb2;
+	background-color: #1e1e2e;
+	color: #9399b2;
 }
 
 #window {
@@ -43,8 +43,8 @@ window#waybar {
 	margin-left: 5px;
   border-radius: 5px;
 	padding: 0px 10px 0px 10px;
-	background-color: #282828;
-	color: #ebdbb2;
+	background-color: #1e1e2e;
+	color: #9399b2;
 }
 
 window#waybar.empty #window {
@@ -55,20 +55,20 @@ window#waybar.empty #window {
   border-radius: 20px;
 	padding: 0px 10px 0px 10px; 
  	min-width: 1px;
-	color: #ebdbb2;
+	color: #9399b2;
 }
 
 
 #workspaces button.active {
-  border-radius: 15px;
-  background-color: #282828; 
-	color:  #83a598;
+  border-radius: 15px; 
+	background-color: #1e1e2e;
+	color:  #cba6f7;
 }
 
 
 #mode { 
-      background-color: #282828;
-      color: #ebdbb2;
+      background-color: #1e1e2e;
+      color: #9399b2; 
       padding: 0px 5px 0px 5px;
       border: 1px solid #2f343a;
 }
@@ -78,7 +78,7 @@ window#waybar.empty #window {
 	margin-left: 5px;
 	margin-bottom: 5px;
 	border-radius: 5px;
-	background-color: #282828;
+	background-color: #1e1e2e;
 	padding: 0px 15px 0px 15px;
 }
 
@@ -89,40 +89,40 @@ window#waybar.empty #window {
 }
 
 #network {
-	color: #83a598;
+	color: #74c7ec;
 }
 
 #backlight {
-	color: #d3869b;
+	color: #cba6f7;
 }
 
 #pulseaudio {
-	color: #8ec07c;
+	color: #f5c2e7;
 }
 
 #battery {
-	color: #b8bb26;
+	color: #a6e3a1;
 }
 
 #clock {
-	color: #fabd2f;
+	color: #f9e2af;
 }
 
 #clock.2 {
-	color: #fe8019;
+	color: #fab387;
 }
 
 #battery.critical {
-	color: #fb4934;
+	color: #f38ba8;
 }
 
 
 #network.disconnected {
-	color: #fb4934;
+	color: #f38ba8;
 }
 
 #custom-wmname {
-  color: #458588;
+  color: #89b4fa;
 	font-size: 25px;	
 }
 

@@ -6,13 +6,13 @@ Tiling Manager: Hyprland
 
 Bar: Waybar
 
-![Desktop](./imgs/default.png)
+![Desktop](./imgs/1.png)
 
 Terminal: Alacritty
 
 Editor: Helix
 
-![Desktop](./imgs/in_use.png)
+![Desktop](./imgs/2.png)
 
 ## File Structure
 - dev-envs: Declaration of various development environments using flake templates.

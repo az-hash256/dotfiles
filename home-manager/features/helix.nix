@@ -1,10 +1,12 @@
-{ pkgs, config, ...}:
-
 {
+  pkgs,
+  config,
+  ...
+}: {
   programs.helix = {
     enable = true;
     defaultEditor = true;
-    settings = {  theme = "gruvbox_dark_hard"; };
+    settings = {theme = "catppuccin_mocha";};
     languages = {
       language = [
         {
@@ -18,7 +20,6 @@
           name = "bash";
         }
       ];
-       
     };
   };
 }

@@ -8,9 +8,12 @@
     neofetch
     wl-clipboard
     betterdiscordctl
-    discord
+    vesktop
     alejandra
+    nil
+    statix
     obsidian
+    zoom-us
     pavucontrol
     wget
     slurp
@@ -20,7 +23,6 @@
     xdg-user-dirs
     qt5.qtwayland
     qt6.qtwayland
-    libsForQt5.qt5.qtgraphicaleffects
     swww
   ];
 

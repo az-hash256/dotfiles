@@ -6,7 +6,7 @@
         "height": 40,
         "modules-left": ["custom/wmname", "hyprland/workspaces", "hyprland/window"],
         "modules-center": [],
-        "modules-right": ["network", "backlight", "pulseaudio", "battery", "clock", "clock#2", "tray"],
+        "modules-right": ["network", "backlight", "pulseaudio", "battery", "clock", "clock#2"],
 
         "hyprland/workspaces": {
             "format": "{icon}",

@@ -23,7 +23,7 @@
     ./features/direnv.nix
   ];
 
-  colorScheme = inputs.nix-colors.colorSchemes.gruvbox-dark-medium;
+  colorScheme = inputs.nix-colors.colorSchemes.catppuccin-mocha;
 
   home.username = "arellafi";
   home.homeDirectory = "/home/arellafi";
