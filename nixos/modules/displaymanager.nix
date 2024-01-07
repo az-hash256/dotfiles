@@ -7,7 +7,7 @@
       enable = true;
       displayManager = {
         sddm.enable = true;
-        sddm.theme = "/usr/share/sddm/themes/sddm-sugar-dark";
+        sddm.theme = "/usr/share/sddm/themes/catppuccin-mocha";
       };
     };
   };
