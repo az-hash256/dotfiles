@@ -21,6 +21,7 @@
     ./features/cursor.nix
     ./features/bash.nix
     ./features/direnv.nix
+    ./features/starship.nix
   ];
 
   colorScheme = inputs.nix-colors.colorSchemes.catppuccin-mocha;
