@@ -35,7 +35,7 @@
           format = "[[($all_status$ahead_behind )](fg:lavender bg:surface0)]($style)";
         };
 
-        node_js = {
+        nodejs = {
           symbol = "";
           style = "bg:surface1";
           format = "[[ $symbol ($version) ](fg:blue bg:surface1)]($style)";
@@ -49,12 +49,6 @@
 
         haskell = {
           symbol = "";
-          style = "bg:surface1";
-          format = "[[ $symbol ($version) ](fg:blue bg:surface1)]($style)";
-        };
-
-        prolog = {
-          symbol = "";
           style = "bg:surface1";
           format = "[[ $symbol ($version) ](fg:blue bg:surface1)]($style)";
         };
