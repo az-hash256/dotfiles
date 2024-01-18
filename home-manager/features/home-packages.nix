@@ -19,6 +19,7 @@
     slurp
     grim
     dunst
+    itch
     xdg-desktop-portal-hyprland
     xdg-user-dirs
     qt5.qtwayland

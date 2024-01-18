@@ -22,6 +22,11 @@
         path = ./fhs;
         description = "Flake for FHS environment template";
       };
+
+      java = {
+        path = ./java;
+        description = "Flake for Java environment template";
+      };
     };
 
     defaultTemplate = self.templates.example;

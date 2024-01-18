@@ -23,6 +23,7 @@
     ./modules/fonts.nix
     ./modules/enable_flakes.nix
     ./modules/nix.nix
+    ./modules/enable_steam.nix
   ];
 
   system.stateVersion = "23.11"; # Did you read the comment?
