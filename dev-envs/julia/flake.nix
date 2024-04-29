@@ -1,6 +1,6 @@
 # flake.nix
 {
-  description = "Javascript Development Environment template";
+  description = "Java 8 Development Environment template";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
@@ -18,8 +18,7 @@
       pkgs.mkShell
       {
         nativeBuildInputs = with pkgs; [
-          nodejs
-          nodePackages_latest.typescript-language-server
+          julia
         ];
       };
   };

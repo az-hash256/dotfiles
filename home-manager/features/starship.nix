@@ -20,62 +20,75 @@
         };
 
         directory = {
-          style = "fg:mauve bg:mantle";
+          style = "fg:crust bg:lavender";
           format = "[ $path ]($style)";
         };
 
         git_branch = {
-          style = "bg:surface0";
-          format = "[[ $symbol $branch ](fg:lavender bg:surface0)]($style)";
+          style = "bg:mauve";
+          format = "[[ $symbol $branch ](fg:crust bg:mauve)]($style)";
           symbol = "";
         };
 
         git_status = {
-          style = "bg:surface0";
-          format = "[[($all_status$ahead_behind )](fg:lavender bg:surface0)]($style)";
+          style = "bg:mauve";
+          format = "[[($all_status$ahead_behind )](fg:crust bg:mauve)]($style)";
         };
 
         nodejs = {
           symbol = "";
-          style = "bg:surface1";
-          format = "[[ $symbol ($version) ](fg:blue bg:surface1)]($style)";
+          style = "bg:blue";
+          format = "[[ $symbol ($version) ](fg:crust bg:blue)]($style)";
+        };
+
+        java = {
+          symbol = "";
+          style = "bg:blue";
+          format = "[[ $symbol ($version) ](fg:crust bg:blue)]($style)";
+        };
+
+        julia = {
+          symbol = "";
+          style = "bg:blue";
+          format = "[[ $symbol ($version) ](fg:crust bg:blue)]($style)";
         };
 
         python = {
           symbol = "";
-          style = "bg:surface1";
-          format = "[[ $symbol ($version) ](fg:blue bg:surface1)]($style)";
+          style = "bg:blue";
+          format = "[[ $symbol ($version) ](fg:crust bg:blue)]($style)";
         };
 
         haskell = {
           symbol = "";
-          style = "bg:surface1";
-          format = "[[ $symbol ($version) ](fg:blue bg:surface1)]($style)";
+          style = "bg:blue";
+          format = "[[ $symbol ($version) ](fg:crust bg:blue)]($style)";
         };
 
         time = {
           disabled = false;
           time_format = "%R"; # Hour:Minute Format
-          style = "bg:surface2";
-          format = "[[   $time ](fg:sapphire bg:surface2)]($style)";
+          style = "bg:sapphire";
+          format = "[[   $time ](fg:crust bg:sapphire)]($style)";
         };
 
         format = lib.concatStrings [
-          "[░▒▓](crust)"
-          "[   ](bg:crust fg:blue)"
-          "[](bg:mantle fg:crust)"
+          "[█](teal)"
+          "[   ](bg:teal fg:crust)"
+          "[█](bg:lavender fg:teal)"
           "$directory"
-          "[](fg:mantle bg:surface0)"
+          "[█](fg:lavender bg:mauve)"
           "$git_branch"
           "$git_status"
-          "[](fg:surface0 bg:surface1)"
+          "[█](fg:mauve bg:blue)"
           "$nodejs"
           "$haskell"
           "$python"
-          "$prolog"
-          "[](fg:surface1 bg:surface2)"
+          "$java"
+          "$julia"
+          "[█](fg:blue bg:sapphire)"
           "$time"
-          "[ ](fg:surface2)"
+          "[█ ](fg:sapphire)"
           "$character"
         ];
       }

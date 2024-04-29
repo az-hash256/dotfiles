@@ -27,6 +27,16 @@
         path = ./java;
         description = "Flake for Java environment template";
       };
+
+      julia = {
+        path = ./julia;
+        description = "Flake for Julia environment template";
+      };
+
+      python = {
+        path = ./python;
+        description = "Flake for Python  environment template";
+      };
     };
 
     defaultTemplate = self.templates.example;

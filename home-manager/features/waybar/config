@@ -1,9 +1,8 @@
 {
 	"mainBar": {
-        "margin": "8px 10px -2px 10px",
         "layer": "top",
         "position": "top",
-        "height": 40,
+        "height": 30,
         "modules-left": ["custom/wmname", "hyprland/workspaces", "hyprland/window"],
         "modules-center": [],
         "modules-right": ["network", "backlight", "pulseaudio", "battery", "clock", "clock#2"],

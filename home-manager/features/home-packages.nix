@@ -12,6 +12,9 @@
     alejandra
     nil
     statix
+    tor-browser
+    texliveTeTeX
+    texstudio
     obsidian
     zoom-us
     pavucontrol

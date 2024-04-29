@@ -19,7 +19,8 @@
       {
         nativeBuildInputs = with pkgs; [
           jdk8
-          jdtls
+          jdt-language-server
+          java-language-server
         ];
       };
   };
