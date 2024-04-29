@@ -8,7 +8,7 @@ Bar: Waybar
 
 ![Desktop](./imgs/1.png)
 
-Terminal: Alacritty
+Terminal: Kitty
 
 Editor: Helix
 
